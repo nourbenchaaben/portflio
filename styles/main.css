@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, sans-serif;
+    background-color: #f7f3f0;
+}
+
+.marquee {
+    white-space: nowrap;
+    overflow: hidden;
+    background: #000000;
+    position: relative;
+    width: 100%;
+}
+
+.marquee-content {
+    display: inline-block;
+    animation: marquee 30s linear infinite;
+    padding-left: 100%;
+}
+
+.marquee-item {
+    display: inline-block;
+    padding: 0 2rem;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.neo-button {
+    background: #000000;
+    color: #ffffff;
+    border: 3px solid #000000;
+    box-shadow: 5px 5px 0 #000000;
+    transition: all 0.2s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.neo-button:hover {
+    transform: translate(2px, 2px);
+    box-shadow: 3px 3px 0 #000000;
+}
+
+.neo-button:active {
+    transform: translate(4px, 4px);
+    box-shadow: 1px 1px 0 #000000;
+}
+
+.neo-button-white {
+    background: #ffffff;
+    color: #000000;
+    border: 3px solid #000000;
+    box-shadow: 5px 5px 0 #000000;
+    transition: all 0.2s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.neo-button-white:hover {
+    transform: translate(2px, 2px);
+    box-shadow: 3px 3px 0 #000000;
+    background: #f0f0f0;
+}
+
+.neo-button-white:active {
+    transform: translate(4px, 4px);
+    box-shadow: 1px 1px 0 #000000;
+    background: #e0e0e0;
+}
+
+.neo-card {
+    background: #ffffff;
+    border: 2px solid #000000;
+    box-shadow: 4px 4px 0 #000000;
+    transition: all 0.2s ease;
+}
+
+.neo-card:hover {
+    transform: translate(2px, 2px);
+    box-shadow: 2px 2px 0 #000000;
+    z-index: 10;
+}
+
+input:focus {
+    box-shadow: 3px 3px 0 #000000;
+    transform: translate(-1px, -1px);
+}
+
+.section-yellow {
+    background-color: #ffd12e;
+}
+
+.section-green {
+    background-color: #b6ffc0;
+}
+
+.section-purple {
+    background-color: #f2e6ff;
+}
+
+.section-pink {
+    background-color: #ffcee4;
+}
+
+.section-blue {
+    background-color: #d5f6ff;
+}

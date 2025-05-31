@@ -1,0 +1,29 @@
+.hero-gradient {
+    background: linear-gradient(45deg, #FFE5E5, #E5F9FF);
+}
+
+.feature-card {
+    transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-card {
+    border: 2px solid #000;
+    transition: all 0.3s ease;
+}
+
+.product-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.category-item {
+    transition: all 0.3s ease;
+}
+
+.category-item:hover {
+    transform: scale(1.05);
+}
