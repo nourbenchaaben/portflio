@@ -12,9 +12,11 @@ function Hero() {
 
                         </p>
                         <div data-name="cta-buttons" className="space-x-6">
-                            <button className="neo-button px-10 py-4 rounded-none font-bold text-lg uppercase tracking-wider">
-                                View Projects
-                            </button>
+                            <a href="#projects">
+                                <button className="neo-button px-10 py-4 rounded-none font-bold text-lg uppercase tracking-wider">
+                                    View Projects
+                                </button>
+                            </a>
                             <button className="neo-button-white px-10 py-4 rounded-none font-bold text-lg uppercase tracking-wider" onClick={() => window.open('https://drive.google.com/file/d/1jYiMSa_sBrX4TtyJhDYX1WGnk4ivqwTF/view?usp=drive_link', '_blank')}>
                                 Resume
                             </button>

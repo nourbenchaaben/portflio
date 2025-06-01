@@ -18,7 +18,7 @@ function Footer() {
                                     </button>
                                 </div>
                                 <p className="text-sm text-gray-600">
-                                    Get notified about new projects and blog posts!
+                                    Get notified about new projects!
                                 </p>
                             </div>
                         </div>
@@ -43,7 +43,7 @@ function Footer() {
                         </div>
                     </div>
                     <div className="text-center pt-8 border-t-2 border-black">
-                        <p>© 2025 Nou BenChaaben.</p>
+                        <p>© 2025 Nour Ben Chaaben.</p>
                     </div>
                 </div>
             </footer>
