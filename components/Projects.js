@@ -4,7 +4,7 @@ function Projects() {
   {
     name: "Train-Tracking Android App",
     description: "Developed a train-tracking Android app for a school project with real-time location, schedules, ticketing, and user profile features.",
-    image: "components/images/train.png", // example website image
+    image: "components/images/train.png", 
     tech: ["Android", "Java/Kotlin", "Firebase", "Google Maps API"],
     github: "https://github.com/nourbenchaaben/manouba.git", 
     demo: "#"
@@ -12,7 +12,7 @@ function Projects() {
   {
     name: "Club Responsive Website",
     description: "Developed a responsive website for the club using React.js and integrated a contact form with EmailJS to streamline communication. Deployed on Azure and managed collaboration using Git and GitHub.",
-    image: "components/images/imc.png", // example website image
+    image: "components/images/imc.png", 
     tech: ["React.js", "EmailJS", "Azure", "Git/GitHub"],
     github: "https://github.com/nourbenchaaben/imc_website.git",
     demo: "https://nourbenchaaben.github.io/imc_website/"
