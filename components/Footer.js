@@ -34,9 +34,9 @@ function Footer() {
                         <div className="neo-card p-6">
                             <h3 className="font-bold mb-4">Resources</h3>
                             <ul className="space-y-2">
-                                <li><a href="https://drive.google.com/file/d/1jYiMSa_sBrX4TtyJhDYX1WGnk4ivqwTF/view?usp=sharing" className="hover:underline">Resume PDF</a></li>
-                                <li><a href="https://github.com/nourbenchaaben" className="hover:underline">GitHub</a></li>
-                                <li><a href="https://www.linkedin.com/in/nour-ben-chaaben/" className="hover:underline">LinkedIn</a></li>
+                                <li><a href="https://www.canva.com/design/DAGcv7G85zE/ipi1haEo0mEW2w3Wrlvpfg/view?utm_content=DAGcv7G85zE&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hc9a1f4c47a" className="hover:underline"  target="_blank" >Resume PDF</a></li>
+                                <li><a href="https://github.com/nourbenchaaben" className="hover:underline"  target="_blank" >GitHub</a></li>
+                                <li><a href="https://www.linkedin.com/in/nour-ben-chaaben/" className="hover:underline"  target="_blank" >LinkedIn</a></li>
                                
 
                             </ul>

@@ -1,7 +1,7 @@
 function About() {
     try {
         return (
-            <div data-name="about" data-file="components/About.js" className="section-yellow py-16 border-b-2 border-black">
+            <div data-name="about" data-file="components/About.js" className="section-purple py-16 border-b-2 border-black">
                 <div className="container mx-auto px-4">
                     <div className="flex flex-wrap items-center">
                         <div className="w-full md:w-1/3 mb-8 md:mb-0">

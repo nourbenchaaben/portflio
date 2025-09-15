@@ -4,10 +4,11 @@ function App() {
             <div data-name="app" data-file="app.js">
                 <Header />
                 <Hero />
+                <About />
                 <Skills />
                 <Projects />
                 <Experience />
-                <About />
+                
                 <Contact />
                 <Footer />
             </div>

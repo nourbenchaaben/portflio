@@ -17,7 +17,7 @@ function Hero() {
                                     View Projects
                                 </button>
                             </a>
-                            <button className="neo-button-white px-10 py-4 rounded-none font-bold text-lg uppercase tracking-wider" onClick={() => window.open('https://drive.google.com/file/d/1jYiMSa_sBrX4TtyJhDYX1WGnk4ivqwTF/view?usp=drive_link', '_blank')}>
+                            <button className="neo-button-white px-10 py-4 rounded-none font-bold text-lg uppercase tracking-wider" onClick={() => window.open('https://www.canva.com/design/DAGcv7G85zE/ipi1haEo0mEW2w3Wrlvpfg/view?utm_content=DAGcv7G85zE&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hc9a1f4c47a', '_blank')}>
                                 Resume
                             </button>
                         </div>

@@ -1,7 +1,8 @@
+import emailjs from "@emailjs/browser";
 function Contact() {
     try {
         return (
-            <div data-name="contact" data-file="components/Contact.js" className="section-green py-16 border-b-2 border-black" id="contact">
+            <div data-name="contact" data-file="components/Contact.js" className="section-yellow py-16 border-b-2 border-black" id="contact">
                 <div className="container mx-auto px-4">
                     <h2 className="text-3xl font-bold text-center mb-12">Let's Work Together</h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-12">

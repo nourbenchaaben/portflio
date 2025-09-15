@@ -24,15 +24,23 @@ function Projects() {
     tech: ["Firebase", "JavaScript", "React", "Realtime Database"],
     github: "https://github.com/nourbenchaaben/front-end-bingo.git",
     demo: "https://nourbenchaaben.github.io/front-end-bingo/"
+  },
+  {
+    name: "REDIX Agency Platform",
+    description: "Contributed to a full-stack website featuring a public-facing services site and a multi-role dashboard with secure portals for Admins, Support, and Partners.",
+    image: "components/images/redix.png",
+    tech: ["React", "Node.js", "Express", "MongoDB", "Azure"],
+    github: "https://github.com/Hamza-Khlaf/REDIX-Agency-Platform",  // Replace with the actual repository link if available
+    demo: "https://www.canva.com/design/DAGzFJ2LNCY/iRyaMJssICLsVoPu0ifwjw/watch?utm_content=DAGzFJ2LNCY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=ha6ad6266df"      // Replace with the deployed demo URL if available
   }
 ];
 
 
         return (
-            <div data-name="projects" data-file="components/Projects.js" className="section-blue py-16 border-b-2 border-black" id="projects">
+            <div data-name="projects" data-file="components/Projects.js" className="section-pink py-16 border-b-2 border-black" id="projects">
                 <div className="container mx-auto px-4">
                     <h2 className="text-3xl font-bold text-center mb-12">Featured Projects</h2>
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
                         {projects.map((project, index) => (
                             <div key={index} data-name="project-card" className="neo-card p-4">
                                 <img src={project.image} alt={project.name} className="w-full h-48 object-cover mb-4"/>
@@ -43,7 +51,7 @@ function Projects() {
                                         <span key={i} className="bg-gray-200 px-2 py-1 text-xs">{tech}</span>
                                     ))}
                                 </div>
-                                <div className="flex space-x-4">
+                                <div className=" flex space-x-4">
                                     <a href={project.github} className="text-sm hover:underline"  target="_blank">
                                         <i className="fab fa-github mr-1"></i>Code
                                     </a>

@@ -1,10 +1,10 @@
 function Experience() {
     try {
         return (
-            <div data-name="experience" data-file="components/Experience.js" className="section-pink py-16 border-b-2 border-black" id="experience">
+            <div data-name="experience" data-file="components/Experience.js" className="section-green py-16 border-b-2 border-black" id="experience">
                 <div className="container mx-auto px-4">
                     <h2 className="text-3xl font-bold text-center mb-12">Experience </h2>
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                         <div data-name="experience-card" className="neo-card p-6">
                             <h3 className="font-bold text-xl mb-2">Project Team Manager </h3>
                             <p className="text-gray-600 mb-2">ISAMM Microsoft Club• 2024 – Present</p>
@@ -21,6 +21,16 @@ function Experience() {
                                 <li>• Led creative campaigns showcasing Summer Peak and iCX projects.</li>
                                 <li>• Designed promotional materials and newsletters to boost EP engagement.</li>
                                 <li>• Delivered final marketing reports summarizing Summer Peak outcomes</li>
+                            </ul>
+                        </div>
+                        {/* Sales Team */}
+                        <div data-name="experience-card" className="neo-card p-6">
+                            <h3 className="font-bold text-xl mb-2">Sales Team</h3>
+                            <p className="text-gray-600 mb-2">Global Village Event • 2025</p>
+                            <ul className="text-sm space-y-1">
+                                <li>• Secured partnerships and sponsorships to highlight diverse cultures</li>
+                                <li>• Assisted in promoting event activities to maximize visitor engagement</li>
+                                <li>• Collaborated with cross-functional teams for smooth event execution</li>
                             </ul>
                         </div>
                     </div>
